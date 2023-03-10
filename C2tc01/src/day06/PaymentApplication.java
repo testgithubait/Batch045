@@ -6,8 +6,7 @@ interface WorldBank{
 interface RBI{
 	float RBI_rateofInterest();
 }
-public class PaymentApplication implements 
-	WorldBank, RBI {
+public class PaymentApplication implements WorldBank, RBI {
 		public float rateofInterest()
 		{
 			return 9.0f;
